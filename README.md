@@ -1,19 +1,21 @@
 # BlockChain
 
-This was an assignment for CMPT 383. 
+This is an assignment for CMPT 383, which is written in Go.
 
 ## Files
 
 **block.go**
-- Creates block 
+- Creates new block 
 - Calculates block hash
-- Verify hash ID
+- Verify if hash ID is valid
 
 **blockchain.go**
-- Verify blocks are valid 
+- Adds blocks to exisiting
+- Checks if block is valid
+- Error message would be displayed to the user if there is an error with adding the block or checking validity of block  
 
 **blockchain_test.go**
-- Contains test cases
+- Contains test cases  
 
 **mining.go**
 - Mines the blockchain 
